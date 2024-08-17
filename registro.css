@@ -1,0 +1,118 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 0 auto;
+}   
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-content: center;
+    border-radius: 0%;
+    border-color: transparent;
+}
+div#general{
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 0%;
+    height: 0vh;
+}
+.no{
+    top: 0px;
+    bottom: 100px;
+    position: absolute;
+    color: rgba(104, 73, 56, 0.473);
+}
+.xd{
+    top: 505px;
+    bottom: 0px;
+    position: absolute;
+    color: rgba(104, 73, 56, 0.473);
+}
+form{
+    position: relative;
+    background-color: rgba(81, 57, 38, 0.541);
+    display: inline-block
+    flex-direction: column;
+    padding: 15px;
+    width: 420px;
+    height: 220p;
+    text-align: center;
+    left: 420px;
+    top: 150px;
+    bottom: 850px;
+    align-self: center;
+}
+form label{
+    position: relative;
+    font-size: 16px;
+    color: rgba(64, 45, 29, 0.541);
+    width: 15%;
+    height: 10%;
+}
+form h1{
+    position: relative;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    width: 300px;
+    height: 16px
+}
+form h2{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    width: 300px;
+    height: 16px
+}
+input{
+    padding: 0;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    border: none;
+    margin-bottom: 0px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 300px;
+    height: 24px;
+}
+::placeholder{
+color: gainsboro;
+}
+.btn{
+    background-color: rgba(159, 114, 94, 0.664);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: darkseagreen;
+border: none;
+
+}
+.form-container{
+width: 500px;
+height: 300px;
+}
+form ::content{
+    width: 15%;
+    height: 10%;
+}
+//@media(max-width:510px){
+    body{
+        padding: 30px;
+    }
+    form{
+        width:340px;
+    }
+}
+section img{
+    width: 15%;
+    height: 97%;
+    left: 20px;
+    bottom: 10px;
+position: fixed;
